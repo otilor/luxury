@@ -78,81 +78,85 @@ export default function Hero() {
 
       </div>
 
-      <div className='relative gap-4 overflow-hidden grid grid-cols-4 m-2'>
-        <div>
-          <label htmlFor="location" className="block text-sm font-medium text-gray-700">
-            Location
-          </label>
-          <select
-            id="location"
-            name="location"
-            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-            defaultValue="Canada"
-          >
-            <option>Maryland</option>
-            <option>Allen</option>
-            <option>Opebi</option>
-            <option>Oregun</option>
-            <option>Ojota</option>
-            <option>Berger</option>
-            <option>Surulere</option>
-            <option>Yaba</option>
-            <option>Isolo</option>
-            <option>Festac</option>
-            <option>Oshodi</option>
-            <option>Victoria Island</option>
-            <option>Ikoyi</option>
-            <option>Lekki</option>
-            <option>Banana Island</option>
-          </select>
-        </div>
-        <div>
-          <label htmlFor="location" className="block text-sm font-medium text-gray-700">
-            Type
-          </label>
-          <select
-            id="location"
-            name="location"
-            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-            defaultValue="Canada"
-          >
-            <option>Self-contained</option>
-            <option>Miniflat</option>
-            <option>2 bedroom flat</option>
-            <option>3 bedroom flat</option>
-            <option>4 bedroom flat</option>
-          </select>
-        </div>
-        <div>
-          <label htmlFor="location" className="block text-sm font-medium text-gray-700">
-            Sort By
-          </label>
-          <select
-            id="location"
-            name="location"
-            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-            defaultValue="Canada"
-          >
-            <option>Relevance</option>
-            <option>Popularity</option>
-            <option>New to Old</option>
-            <option>Old to New</option>
-          </select>
-        </div>
-        <div>
-          <label htmlFor="location" className="block text-sm font-medium text-gray-700">
-            Price
-          </label>
-          <select
-            id="location"
-            name="location"
-            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-            defaultValue="Canada"
-          >
-            <option>Lowest price</option>
-            <option>Highest price</option>
-          </select>
-        </div>
+      <div className='bg-white px-4 py-5 border-b border-gray-200 sm:px-6'>
+      <h3 className="text-lg leading-6 font-medium text-gray-900">Filters</h3>
+      <div className='grid grid-cols-4 gap-4 pt-2'>
+          <div>
+              <label htmlFor="location" className="block text-sm font-medium text-gray-700">
+                Location
+              </label>
+              <select
+                id="location"
+                name="location"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                defaultValue="Canada"
+              >
+                <option>Maryland</option>
+                <option>Allen</option>
+                <option>Opebi</option>
+                <option>Oregun</option>
+                <option>Ojota</option>
+                <option>Berger</option>
+                <option>Surulere</option>
+                <option>Yaba</option>
+                <option>Isolo</option>
+                <option>Festac</option>
+                <option>Oshodi</option>
+                <option>Victoria Island</option>
+                <option>Ikoyi</option>
+                <option>Lekki</option>
+                <option>Banana Island</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="location" className="block text-sm font-medium text-gray-700">
+                Type
+              </label>
+              <select
+                id="location"
+                name="location"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                defaultValue="Canada"
+              >
+                <option>Self-contained</option>
+                <option>Miniflat</option>
+                <option>2 bedroom flat</option>
+                <option>3 bedroom flat</option>
+                <option>4 bedroom flat</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="location" className="block text-sm font-medium text-gray-700">
+                Sort By
+              </label>
+              <select
+                id="location"
+                name="location"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                defaultValue="Canada"
+              >
+                <option>Relevance</option>
+                <option>Popularity</option>
+                <option>New to Old</option>
+                <option>Old to New</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="location" className="block text-sm font-medium text-gray-700">
+                Price
+              </label>
+              <select
+                id="location"
+                name="location"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                defaultValue="Canada"
+              >
+                <option>Lowest price</option>
+                <option>Highest price</option>
+              </select>
+            </div>
+      </div>
+        
 
       </div>
 
