@@ -90,13 +90,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-800">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <h2 className="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">
-            Curated by Gabriel Akinyosoye
-          </h2>
-        </div>
-      </div>
+      
     </div>
   )
 }
