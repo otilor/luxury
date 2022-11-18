@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <Nav />
       <Hero />
-      <Testimonials />
     </div>
   )
 }
