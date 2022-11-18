@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
+import Testimonials from "../components/testimonials";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Nav />
       <Hero />
+      <Testimonials />
     </div>
   )
 }
