@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query"
 import axios from "axios"
+import { Key, ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from "react";
 const products = [
     {
       id: 1,
@@ -39,7 +40,7 @@ const products = [
           <h2 className="sr-only">Products</h2>
   
           <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
-            {query.data?.map(house => (
+            {query.data?.map((house: { id: Key | null | undefined; images: (string | undefined)[]; imageAlt: string | undefined; href: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; description: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; options: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; features: { price: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; duration: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }; }) => (
               <div
                 key={house.id}
                 className="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden"
